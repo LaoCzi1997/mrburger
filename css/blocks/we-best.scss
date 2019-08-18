@@ -1,0 +1,33 @@
+.we-best {
+    background: url('img/bg/we-best-bg.png') center center / cover no-repeat;
+}
+
+.we-best__list {
+    display: flex;
+}
+
+.we-best__item {
+    flex: 1;
+    margin-right: 35px;
+    text-align: center;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.we-best__picture {
+    margin-bottom: 34px;
+}
+
+.we-best__title {
+    font-size: 24px;
+    @include lifehack;
+    margin-bottom: 10px;
+}
+
+.we-best__desc-text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #2f3234;
+}

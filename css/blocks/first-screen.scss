@@ -1,0 +1,29 @@
+.first-screen {
+    background: url('../img/bg/first-screen-bg.png') center center / cover no-repeat;
+    position: relative;
+}
+
+.first-screen__container {
+    height: 100%;
+
+}
+
+.first-screen__content {
+    display: flex;
+    align-items: center;
+    flex: 0.8;
+    padding-bottom: 27px;
+    padding-left: 23px;
+}
+
+.first-screen__desc {
+    padding-top: 88px;
+    margin-left: 10px;
+}
+
+.first-screen__subtitle {
+    @include lifehack;
+    font-size: 65px;
+    line-height: 1;
+    color: #fff;
+}

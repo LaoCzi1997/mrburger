@@ -1,0 +1,21 @@
+//mixin для центрирования элемента с помощью translate
+@mixin center-elem($width, $heihgt, $x_y_xy: x_y) {
+    width: $width;
+    height: $heihgt;
+    display: block;
+    position: absolute;
+
+    @if $x_y_xy == x {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    @else if $x_y_xy == y {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    @else if $x_y_xy == x_y{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

@@ -1,0 +1,21 @@
+.title {
+    @include gagalin;
+    font-size: 72px;
+    color: $yellow;
+    margin-bottom: 55px;
+    line-height: 1;
+
+    &--color {
+        &--black {
+            color: $black;  
+        }  
+
+        &--white {
+            color: white;
+        }
+    }
+    
+    &--centered {
+        text-align: center;
+    }
+}

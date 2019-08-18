@@ -1,0 +1,18 @@
+.btn {
+    font-size: 13px;
+    color: #ffffff;
+    font-family: "Ubuntu";
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: $orange;
+    border-radius: 5px;
+    padding: 10px 15px;
+
+    &:hover {
+        background-color: $red; 
+    }
+}
+
+.btn__reset {
+    margin-left: 20px;
+}
